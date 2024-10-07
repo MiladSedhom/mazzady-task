@@ -4,8 +4,9 @@ interface Option  {label:string, value: (string | number)}
 
 defineProps({
 	modelValue: {type: String, default: ''},
-	options: {type: Array<Option>, required: true }
+	options: {type: Array<Option>, default:[] }
 })
+
 
 </script>
 
@@ -15,8 +16,9 @@ defineProps({
 			class="min-w-[20rem] inline-flex items-center justify-between rounded px-4  text-sm leading-none h-10 gap-[5px] bg-bg text-fg shadow-[0_2px_10px] shadow-black/10 hover:bg-yellow-1/30 focus:shadow-[0_0_0_2px] focus:shadow-black data-[placeholder]:text-gray-2/50 outline-none"
 		>
 			<ComboboxInput
-				class="!bg-transparent outline-none text-fg h-full  placeholder-gray-2/50"
+				class="!bg-transparent outline-none text-fg h-full placeholder-gray-2/50 grow"
 				placeholder="Placeholder..."
+				:value="options.find(o=> o.value === modelValue)?.label"
 			/>
 			<ComboboxTrigger ">
 				<Icon name="radix-icons:chevron-down" class="h-5 w-5 text-fg" />
