@@ -5,6 +5,8 @@ export default {
 				primary: '#D20653',
 				secondary: '#FF951D',
 				'yellow-1': '#F8D486',
+				base: '#F6F4F5',
+				bg: '#FFFFFF',
 				fg: '#333333',
 				'gray-1': '#4F4F4F',
 				'gray-2': '#828282',
