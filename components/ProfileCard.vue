@@ -2,7 +2,7 @@
 	<div class="bg-bg p-6 rounded-[21px] w-full">
 		<img src="/public//placeholder.png" alt="avatar" class="w-20 h-20 sm:w-auto sm:h-auto mb-4" />
 		<h1 class="text-lg sm:text-2xl font-bold">Hala Ahmed</h1>
-		<p class="text-sm sm:text-base mb-6">
+		<p class="sm:text-gray-2 text-sm sm:text-base mb-6">
 			I am Hala Ahmed, I am the owner of the local brand called Beauty which is for Mackeup and Skin Care.
 		</p>
 		<div class="flex justify-center items-center gap-4">
