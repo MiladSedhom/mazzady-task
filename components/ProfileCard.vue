@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-bg p-6 rounded-[21px] max-w-[25rem]">
+	<div class="bg-bg p-6 rounded-[21px] w-full">
 		<img src="/public//placeholder.png" alt="avatar" class="mb-4" />
 		<h1 class="text-2xl font-bold">Hala Ahmed</h1>
 		<p class="mb-6">
