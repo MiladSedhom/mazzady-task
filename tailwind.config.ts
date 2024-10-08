@@ -4,7 +4,7 @@ export default {
 			colors: {
 				primary: '#D20653',
 				secondary: '#FF951D',
-				'yellow-1': '#F8D486',
+				'yellow-1': '#FFF5E9',
 				base: '#F6F4F5',
 				bg: '#FFFFFF',
 				fg: '#333333',

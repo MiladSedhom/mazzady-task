@@ -1,7 +1,8 @@
 <template>
 	<Header />
-	<div class="p-8">
-		<h1 class="text-2xl">Hiiiii🍫🍫</h1>
-		<CatsForm />
+	<div class="px-[5.25rem] py-[3rem] flex">
+		<div>
+			<ProfileCard />
+		</div>
 	</div>
 </template>
