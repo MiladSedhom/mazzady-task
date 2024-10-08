@@ -17,5 +17,12 @@
     "radix-vue": "^1.9.7",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.14.3",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^15.7.4",
+    "vitest": "^2.1.2",
+    "vitest-environment-nuxt": "^1.0.1"
   }
 }
