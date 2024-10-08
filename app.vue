@@ -2,7 +2,7 @@
 
 <template>
 	<NuxtRouteAnnouncer />
-	<div class="bg-base text-fg w-screen h-screen">
+	<div class="bg-base text-fg min-w-screen min-h-screen">
 		<NuxtPage />
 	</div>
 </template>
