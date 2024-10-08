@@ -1,11 +1,11 @@
 <template>
-	<header class="h-[3rem] sm:h-[4.25rem] px-4 sm:px-[5.25rem] flex items-center bg-bg justify-between">
+	<header class="h-[3rem] lg:h-[4.25rem] px-4 lg:px-[5.25rem] flex items-center bg-bg justify-between">
 		<div class="flex gap-9 items-center h-full">
 			<div class="flex gap-3 items-center">
-				<Icon name="radix-icons:hamburger-menu" class="sm:hidden w-6 h-6" />
-				<img src="/public/logo.png" width="108" height="4" class="h-8 sm:h-[43px]" />
+				<Icon name="radix-icons:hamburger-menu" class="lg:hidden w-6 h-6" />
+				<img src="/public/logo.png" width="108" height="4" class="h-8 lg:h-[43px]" />
 			</div>
-			<nav class="h-full hidden sm:block">
+			<nav class="h-full hidden lg:block">
 				<ul class="flex gap-10 h-full">
 					<li class="grid place-content-center relative">
 						<NuxtLink class="text-lg text-primary font-bold" to="#">Home</NuxtLink>
@@ -32,16 +32,16 @@
 					src="/public/placeholder.png"
 					width="40"
 					height="40"
-					class="rounded-full w-6 h-6 sm:w-10 sm:h-10"
+					class="rounded-full w-6 h-6 lg:w-10 lg:h-10"
 				/>
 				<button
-					class="bg-primary-gradient leading-10 text-bg text-sm font-bold px-4 rounded-[10px] hidden sm:block"
+					class="bg-primary-gradient leading-10 text-bg text-sm font-bold px-4 rounded-[10px] hidden lg:block"
 				>
 					<Icon name="radix-icons:plus-circled" />
 					Add New Product
 				</button>
 			</div>
-			<div class="gap-2 items-center hidden sm:flex">
+			<div class="gap-2 items-center hidden lg:flex">
 				<Icon name="radix-icons:globe" class="w-6 h-6 text-fg/75" />
 				<div class="h-8 w-[2px] bg-gray-3"></div>
 				<span class="w-6 h-6 font-bold">EN</span>
